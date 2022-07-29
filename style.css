@@ -1,4 +1,17 @@
 .img{
     width: 80px;
-    height: 50px;
+    height: 30px;
+}
+@media screen and (max-width: 800px) {
+
+    .try h2{font-size: 20px;
+    font-weight: bold;
+}
+  
+}
+@media screen and (max-width: 500px) {
+
+    .bg{
+        display: flex;
+        flex-direction: column;}
 }
